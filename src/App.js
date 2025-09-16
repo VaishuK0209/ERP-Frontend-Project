@@ -1,10 +1,11 @@
+import React from "react";
 import './App.css';
-import Loginsignupform from './Loginsignupform';
+import Authform from "./Authform";
 
 function App() {
   return (
-    <div>
-      <Loginsignupform/>
+    <div className="login-container">
+      <Authform/>
     </div>
   );
 }
